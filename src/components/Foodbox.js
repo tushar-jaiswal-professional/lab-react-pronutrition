@@ -42,7 +42,7 @@ class Foodbox extends Component {
     {
         this.setState(
         {
-            searchFood : event.target.value
+            searchFood : event.target.value.toLowerCase()
         })
     }
 
