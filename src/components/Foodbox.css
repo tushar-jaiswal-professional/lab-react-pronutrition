@@ -1,0 +1,87 @@
+#title
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+nav{
+    background-color: skyblue;
+    padding: 2px;
+}
+
+
+#Food-div
+{
+    width: 500px;
+}
+
+#food-list-final
+{
+    margin-top: 20px;
+    color: Black;
+    border: skyblue 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#fn{
+    margin: 30px 0;
+}
+
+#count{
+    margin: 40px 0;
+}
+
+#add{
+    margin: 40px 0;
+}
+
+#cal{
+    margin: 50px 0;
+}
+
+#Result-div
+{
+    width: 500px;
+    border: 2px skyblue solid;
+}
+
+#grid-div
+{
+    display: grid;  
+    grid: auto;   
+    grid-template-columns: 500px 500px;  
+    grid-gap: 200px;    
+    justify-content: center;
+    padding: 20px;
+}
+
+#search-btn
+{
+    margin-left: 20px;
+}
+
+#Food-list
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.food-img
+{
+    height: 100px;
+    width: 130px;
+    margin: 10px 0;
+}
+
+.number
+{
+    width: 20px;
+}
+
+#calcount
+{
+    font-weight: bold;
+}
